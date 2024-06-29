@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tamagotchi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tamagotchi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tamagotchi-Debug-ad1dc60b4010667284ff.json",
+					"name" : "tamagotchi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tamagotchi_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tamagotchi_autogen-Debug-1ce4950f32a99d00cddc.json",
+					"name" : "tamagotchi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tamagotchi_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tamagotchi_autogen_timestamp_deps-Debug-79b19e60dc6c35fe2a4a.json",
+					"name" : "tamagotchi_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/samael/Clion/tamagotchi/cmake-build-debug",
+		"source" : "/home/samael/Clion/tamagotchi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

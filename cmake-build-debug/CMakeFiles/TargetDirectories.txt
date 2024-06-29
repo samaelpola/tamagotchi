@@ -1,0 +1,5 @@
+/home/samael/Clion/tamagotchi/cmake-build-debug/CMakeFiles/tamagotchi.dir
+/home/samael/Clion/tamagotchi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/samael/Clion/tamagotchi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/samael/Clion/tamagotchi/cmake-build-debug/CMakeFiles/tamagotchi_autogen_timestamp_deps.dir
+/home/samael/Clion/tamagotchi/cmake-build-debug/CMakeFiles/tamagotchi_autogen.dir
