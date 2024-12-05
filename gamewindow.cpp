@@ -16,8 +16,7 @@ GameWindow::GameWindow(QWidget *parent, Tamagotchi *tamagotchi) :
         QWidget(parent), ui(new Ui::GameWindow), tamagotchi(tamagotchi),
         timer(new QTimer(this)) {
     ui->setupUi(this);
-    QPixmap pm("../assets/tamagotchi.png");
-    ui->label_img->setPixmap(pm);
+    ui->label_img->setPixmap(QPixmap(":/assets/tamagotchi.png"));
     ui->label_img->setScaledContents(true);
 
     connect(ui->pushButton_save, SIGNAL(clicked(bool)), this, SLOT(saveGame()));

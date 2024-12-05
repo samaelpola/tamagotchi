@@ -13,8 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
         QWidget(parent), ui(new Ui::MainWindow), gameWindow(nullptr) {
     ui->setupUi(this);
 
-    QPixmap pm("../assets/tamagotchi.png");
-    ui->labelImg->setPixmap(pm);
+    ui->labelImg->setPixmap(QPixmap(":/assets/tamagotchi.png"));
     ui->labelImg->setScaledContents(true);
 
     connect(ui->pushButton_newGame, SIGNAL(clicked(bool)), this, SLOT(startNewTamagotchi()));

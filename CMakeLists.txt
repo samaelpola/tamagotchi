@@ -29,6 +29,7 @@ add_executable(
         gamewindow.cpp
         gamewindow.h
         gamewindow.ui
+        assets/resources.qrc
 )
 
 target_link_libraries(
